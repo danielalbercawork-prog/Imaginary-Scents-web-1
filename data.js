@@ -20,6 +20,18 @@ const PRODUCTOS = [
  d:"Limón, bergamota y piña que abren frescos y luminosos; el neroli y el ylang-ylang le dan un corazón floral con carácter italiano, y el vetiver, el musgo y el cuero cierran con una elegancia sobria que lo aleja de lo común.",
  q:"Para el que viaja ligero, viste con clase sin esfuerzo y huele a que siempre sabe a dónde va 🍋🌸", p:{5:30,10:50}},
 
+{id:"acqua-fico-amalfi",m:"Acqua di Parma",n:"Blu Mediterraneo Fico di Amalfi",col:"nicho",perf:["citrica","amaderada"],est:"calor",
+ d:"Toronja, bergamota, cidra y limón que abren frescos y luminosos; el néctar de higo, el jazmín y la pimienta rosa arman un corazón jugoso con un toque especiado, y el árbol de la higuera, el cedro y el benjuí cierran verde, cálido y mediterráneo.",
+ q:"Para el que asocia el verano con tardes largas en la costa italiana, sin necesidad de viajar 🍈🌊", p:{5:45,10:70}},
+
+{id:"acqua-mandarino-sicilia",m:"Acqua di Parma",n:"Mandarino di Sicilia",col:"nicho",perf:["citrica","amaderada"],est:"calor",
+ d:"Mandarina verde, naranja sanguina, limón y bergamota que abren vibrantes y jugosos; el petit grain y la menta verde refrescan el corazón con un toque herbal, y el almizcle, el cedro y el pachulí cierran limpio y con carácter.",
+ q:"Para el que huele a cítricos recién cortados y lleva el verano puesto todo el año 🍊🌿", p:{5:45,10:70}},
+
+{id:"acqua-bergamotto-calabria",m:"Acqua di Parma",n:"Blu Mediterraneo Bergamotto di Calabria",col:"nicho",perf:["citrica","amaderada"],est:"calor",
+ d:"Bergamota y cidra que abren frescas y brillantes; el jengibre, el cedro y las flores arman un corazón cálido con un toque especiado, y el vetiver, el almizcle y el benjuí cierran suave y elegante.",
+ q:"Para el que prefiere lo simple bien hecho, fresco de día y con carácter al caer la tarde ☀️🌿", p:{5:45,10:70}},
+
 {id:"amouage-enclave",m:"Amouage",n:"Enclave",col:"nicho",perf:["oriental","amaderada"],est:"todo",
  d:"Menta y especias que despiertan al instante, con un corazón de incienso y pachulí que le da peso y misterio. El ládano y el cuero cierran con carácter, sin pedir permiso.",
  q:"Para el que no sigue tendencias porque ya tiene estilo propio 🖤🌿🔥", p:{3:50,5:85,10:120}},
@@ -270,6 +282,10 @@ const PRODUCTOS = [
  q:"Para el que no necesita etiquetas y huele a que las normas las escribe él 🖤🌸✨", p:{5:45,10:65}},
 
 /* ---------- ÁRABES ---------- */
+{id:"ahmed-kaaf",m:"Ahmed Al Maghribi",n:"Kaaf",col:"arabe",perf:["floral","amaderada"],est:"calor",
+ d:"Lavanda, sandía, naranja siciliana y frutas rojas que abren frescos y jugosos; el lirio de los valles, el jazmín y la flor de loto arman un corazón floral delicado, y el almizcle blanco, el ambroxan y el sándalo cierran suave y envolvente.",
+ q:"Para el que busca algo floral que no empalague, fresco de día y elegante al anochecer 🌸🤍", p:{5:25,10:36}},
+
 {id:"arabiyat-marwa",m:"Arabiyat",n:"Marwa",col:"arabe",perf:["citrica","amaderada"],est:"calor",
  d:"Bergamota de Calabria, lima ácida y naranja siciliana irradian luminosidad cítrica; el jengibre nigeriano, la canela de Ceylán y el neroli de Túnez elevan con calidez especiada de raíces orientales, y el ambroxan con té negro, olíbano y gaiac cierra ahumado y magnético.",
  q:"Para quien lleva el mundo en su mirada y una historia interesante en cada lugar que pisa 🌍✨", p:{10:30}},
@@ -289,4 +305,12 @@ const PRODUCTOS = [
 {id:"rayhaan-cal-tiger",m:"Rayhaan",n:"Cal Cologne Edition Tiger",col:"arabe",perf:["oriental","floral"],est:"frio",
  d:"Clavo y nuez moscada que abren con especias orientales que no piden disculpas; la leche y la rosa suavizan el corazón con una cremosidad inesperada, y el incienso con ládano y ámbar cierran denso, misterioso y envolvente.",
  q:"Para el que lleva su fragancia como un ritual y entiende que oler bien es respeto propio 🐯🌹🪔", p:{10:30}},
+
+{id:"rayhaan-cedrus-blanc",m:"Rayhaan",n:"Cedrus Blanc",col:"arabe",perf:["amaderada","citrica"],est:"todo",
+ d:"Aldehídos y bergamota que abren luminosos con ese brillo clásico e inconfundible; la naranja calienta el corazón con dulzura cítrica, y el cedro cierra seco, elegante y muy versátil.",
+ q:"Para el que quiere un aroma limpio que funcione para cualquier ocasión, sin pensarlo dos veces 🍊🪵", p:{5:25,10:36}},
+
+{id:"rayhaan-nava-sol",m:"Rayhaan",n:"Nava Sol",col:"arabe",perf:["floral","amaderada"],est:"todo",
+ d:"Chicozapote y almizcle ambreta que abren dulces y singulares; la magnolia, la violeta y el sándalo arman un corazón floral delicado, y el almizcle, el ámbar gris y el cedro cierran cálido y sofisticado.",
+ q:"Para el que busca algo distinto a lo de siempre, floral con carácter y muy fácil de llevar 🌸✨", p:{5:25,10:36}},
 ];
